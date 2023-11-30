@@ -1,0 +1,19 @@
+{
+  "name": "shofyola/tugasmvc1",
+  "description": "project mvc 10",
+  "type": "project",
+  "authors": [
+    {
+      "name": "SHOFYOLA",
+      "email": "xiomi.red5a7700@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "filp/whoops": "^2.14"
+  }
+}

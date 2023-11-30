@@ -1,0 +1,107 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+img {
+  height: 80%;
+  width: 100%;
+  padding-right: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(22, 164, 207);
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.brand {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: -5px;
+}
+.user {
+  font-weight: bold;
+  padding-top: 10px;
+  color: rgb(12, 5, 5);
+}
+main {
+  margin-left: 210px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  padding: 15px 20px;
+  margin: 5px 0 5px 0;
+  display: block;
+  color: rgb(12, 7, 7);
+}
+
+nav a:hover {
+  background-color: #4d94b5;
+}
+
+nav .icon {
+  width: 25px;
+  float: left;
+  padding-right: 10px;
+}
+
+.info {
+  background-color: #fa501c;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+table {
+  margin: 15px 0;
+  border: 1px solid #eb1414;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+table th {
+  border: 1px solid #fa501c;
+  padding: 8px;
+  background-color: rgb(80, 129, 255);
+}
+
+table td {
+  border: 1px solid #fa501c;
+  padding: 8px;
+}
+.btn {
+  background-color: #fa501c;
+  border-radius: 4px;
+  color: #140b0b;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: #4d94b5;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  padding: 20px 0 20px 15px;
+  background-color: #fa501c;
+  width: 100%;
+  border-top: 1px solid #1eb8df;
+}
